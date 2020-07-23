@@ -1,0 +1,113 @@
+form {
+    width: 300px;
+    /* margin: 0 auto; */
+    /* text-align: center; */
+    padding-top: 50px;
+  }
+  
+  .value-button {
+    display: inline-block;
+    border: 1px solid #ddd;
+    margin: 0px;
+    width: 40px;
+    height: 20px;
+    text-align: center;
+    vertical-align: middle;
+    padding: 11px 0;
+    background: red;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+  }
+  
+  .value-button:hover {
+    cursor: pointer;
+  }
+
+  form #decrease {
+    margin-right: -4px;
+    border-radius: 8px 0 0 8px;
+  } 
+  
+  form #increase {
+    margin-left: -4px;
+    border-radius: 0 8px 8px 0;
+  }
+  
+  form #input-wrap {
+    margin: 0px;
+    padding: 0px;
+  }
+  
+  /* input#number {
+    text-align: center;
+    border: none;
+    border-top: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+    margin: 0px;
+    width: 40px;
+    height: 40px;
+  } */
+  
+  input[type=number]::-webkit-inner-spin-button,
+  input[type=number]::-webkit-outer-spin-button {
+      -webkit-appearance: none;
+      margin: 0;
+  }
+
+
+   input[type=text1], input[type=password] {
+    width: 100%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    display: inline-block;
+    border: none;
+    background: #f1f1f1;
+  } 
+  button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 30%;
+    opacity: 0.9;
+  }
+  button:hover {
+    opacity:1;
+  }
+  .cancelbtn {
+    padding: 14px 20px;
+    background-color: #f44336;
+  }
+  .cancelbtn, .signupbtn {
+    float: left;
+    width: 10%;
+  }
+  @media screen and (max-width: 300px) {
+    .cancelbtn, .signupbtn {
+       width: 100%;
+    }
+  }
+
+.btn3{
+  background-color: yellow;
+ 
+}
+.ik{
+  width: 100px;
+  height: 100px;
+  cursor: pointer;
+}
+.pm{
+  width: 450px;
+  height:450px ;
+}
+
+
+
+
